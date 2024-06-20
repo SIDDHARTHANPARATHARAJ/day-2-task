@@ -1,0 +1,66 @@
+DAY 1 TASK
+
+OBJECT:
+An object can be created with figure brackets {} with an optional list of
+properties. A property is a “key:value” pair, where a key is a string or a symbol also called a
+property name and the value can be anything including numbers,strings,booleans,functions,arrays
+or even other objects.
+
+                  Objects, in JavaScript, are the most important data type and form the building
+
+blocks for modern JavaScript. These objects are quite different from JavaScript’s primitive data
+types (Number, String, Boolean, null, undefined, and symbol) in the sense that these primitive
+data types all store a single value each (depending on their types). While these primitive data
+types can each hold only a single value, objects are like containers that can hold multiple
+values at once. These values are stored as properties of the object, each with its own key. This
+allows us to group related data and functions together,making our code more organised and
+easier to understand.
+
+Syntax:
+
+new Object(value)
+Object(value)
+let object_name = {
+key_name : value,
+...
+}
+
+Objects are more complex and each object may contain any combination of these primitive
+data-types as well as reference data-types.An object is a reference data type.Variables that are
+assigned as reference value are given a reference or a pointer to that value. That reference or
+pointer points to the location in memory where the object is stored.The variables don’t
+actually store the value.Objects in JavaScript may be defined as an unordered collection of
+related data, of primitive or reference types, in the form of “key:value” pairs.These keys
+can be variables or functions and are called properties and methods respectively in the
+context of an object.
+
+DAY 2 TASK
+
+Document Object:
+The document object represents a web page that is loaded in the browser. By accessing the
+document object, we can access the element in the HTML page. With the help of document objects,
+we can add dynamic content to our web page. The document object can be accessed with a window
+document or just document.
+
+Window Object
+The window object is the topmost object of the DOM hierarchy. It represents a browser window or
+frame that displays the contents of the webpage. Whenever a window appears on the screen to
+display the contents of the document, the window object is created.
+
+Document Object:
+1)It represents any HTML document or web page that is loaded in the browser.  
+2)All the tags, elements with attributes in HTML are part of the document.
+3)It is the object of window property.
+4)It is loaded inside the window.
+5)We can access the document from a window using the window. document
+6)The document is part of BOM (browser object model) and DOM (Document object model).
+7)Properties of document objects such as title, body, cookies, etc can also be accessed by a window like this window. document.title
+
+Windows Object:
+1)It represents a browser window or frame that displays the contents of the webpage.  
+2)Global objects, functions, and variables of JavaScript are members of the window object.
+3)It is the object of the browser.
+4)It is the very first object that is loaded in the browser.
+5)We can access the window from the window only. i.e. window.window
+6)The window is part of BOM, not DOM.
+7)Properties of the window object cannot be accessed by the document object.
